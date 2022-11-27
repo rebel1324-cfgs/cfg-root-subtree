@@ -1,0 +1,11 @@
+<code_scheme name="Default" version="173">
+  <CsvCodeStyleSettings>
+    <option name="SPACE_BEFORE_SEPARATOR" value="true" />
+    <option name="SPACE_AFTER_SEPARATOR" value="true" />
+    <option name="TRIM_LEADING_WHITE_SPACES" value="true" />
+    <option name="TRIM_TRAILING_WHITE_SPACES" value="true" />
+  </CsvCodeStyleSettings>
+  <GoCodeStyleSettings>
+    <option name="LOCAL_PACKAGE_PREFIXES" />
+  </GoCodeStyleSettings>
+</code_scheme>

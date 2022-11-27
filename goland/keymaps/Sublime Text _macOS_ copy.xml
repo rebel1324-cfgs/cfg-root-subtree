@@ -1,0 +1,30 @@
+<keymap version="1" name="Sublime Text (macOS) copy" parent="Sublime Text (Mac OS X)">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="EditorStartNewLineBefore" />
+  <action id="ExpandLiveTemplateCustom">
+    <keyboard-shortcut first-keystroke="alt e" />
+    <keyboard-shortcut first-keystroke="alt dead_acute" />
+  </action>
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
+  <action id="SaveAsTemplate">
+    <keyboard-shortcut first-keystroke="shift alt y" />
+  </action>
+  <action id="SurroundWithLiveTemplate">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="Terminal.SmartCommandExecution.Debug" />
+</keymap>
