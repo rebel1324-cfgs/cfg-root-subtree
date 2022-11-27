@@ -1,0 +1,16 @@
+<templateSet group="Rust">
+  <template name="new" value="#[derive(PartialEq, Properties)]&#10;pub struct $Name$Props {&#10;}&#10;&#10;#[function_component]&#10;pub fn $Name$(props: &amp;$Name$Props) -&gt; Html {&#10;    html! {&#10;        &lt;$tag$&gt;$END$&lt;/$tag$&gt;&#10;    }&#10;}" description="new html fucking tag" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+  <template name="news" value="struct $NAME$;&#10;&#10;enum $NAME$Msg {&#10;}&#10;&#10;impl Component for $NAME$ {&#10;    type Message = $NAME$Msg;&#10;    type Properties = ();&#10;&#10;    fn create(ctx: &amp;Context&lt;Self&gt;) -&gt; Self {&#10;        Self&#10;    }&#10;&#10;    fn view(&amp;self, ctx: &amp;Context&lt;Self&gt;) -&gt; Html {&#10;        html! {&#10;            $HTML$&#10;        }&#10;    }&#10;}" description="new html fucking tag struct" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HTML" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,24 @@
+<application>
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+    <debuggers>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <nt-symbol-settings />
+        </configuration>
+      </debugger>
+      <debugger id="Rust">
+        <configuration>
+          <option name="gdbRenderers" value="Rust compiler's renderers" />
+          <option name="lldbRenderers" value="Rust compiler's renderers" />
+        </configuration>
+      </debugger>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+    </debuggers>
+  </component>
+</application>
