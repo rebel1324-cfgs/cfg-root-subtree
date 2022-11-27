@@ -1,0 +1,24 @@
+<keymap version="1" name="Sublime Text (macOS) copy" parent="Sublime Text (Mac OS X)">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="CopyPaths" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="EditorHungryBackSpace">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="IdeaVim.ReloadVimRc.reload">
+    <keyboard-shortcut first-keystroke="shift meta alt o" />
+  </action>
+</keymap>
