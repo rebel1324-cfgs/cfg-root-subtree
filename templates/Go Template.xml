@@ -1,0 +1,37 @@
+<templateSet group="Go Template">
+  <template name="if" value="{{ if $END$ }}&#10;$SELECTION$&#10;{{ end }}" description="Surround with {{ if }}" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="ifel" value="{{ if $END$ }}&#10;$SELECTION$&#10;{{ else }}&#10;{{ end }}" description="Surround with {{ if }}{{ else }}" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="elif" value="{{ else if $END$ }}" description="Insert {{ else if }}" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="with" value="{{ with .$VAL$ }}&#10;$SELECTION$&#10;{{ end }}" description="Surround with {{ with }}" toReformat="true" toShortenFQNames="false">
+    <variable name="VAL" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="range" value="{{ range .$VAL$ }}&#10;$SELECTION$&#10;{{ end }}" description="Surround with {{ range }}" toReformat="true" toShortenFQNames="false">
+    <variable name="VAL" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rangekv" value="{{ range $$$KEY_NAME$, $$$VALUE_NAME$ := .$VAL$ }}&#10;$SELECTION$&#10;{{ end }}" description="Surround with {{ range }} with key/value variables" toReformat="true" toShortenFQNames="false">
+    <variable name="KEY_NAME" expression="" defaultValue="key" alwaysStopAt="true" />
+    <variable name="VALUE_NAME" expression="" defaultValue="value" alwaysStopAt="true" />
+    <variable name="VAL" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="def" value="{{- define &quot;$NAME$&quot; -}}&#10;$END$&#10;{{- end -}}" description="Define template" toReformat="true" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="templ" value="{{ template &quot;$NAME$&quot; $END$}}" description="Call template" toReformat="true" toShortenFQNames="false">
+    <variable name="NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="val" value="{{ .$VAL$$END$ }}" description="Go Template value" toReformat="true" toShortenFQNames="true">
+    <variable name="VAL" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

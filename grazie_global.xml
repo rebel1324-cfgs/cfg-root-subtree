@@ -1,0 +1,10 @@
+<application>
+  <component name="GraziConfig">
+    <option name="userDisabledRules">
+      <set>
+        <option value="LanguageTool.EN.PRP_CUSTOM_BUILD" />
+        <option value="LanguageTool.EN.BUILD_OFF_OF" />
+      </set>
+    </option>
+  </component>
+</application>
