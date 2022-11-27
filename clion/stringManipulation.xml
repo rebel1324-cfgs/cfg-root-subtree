@@ -1,0 +1,9 @@
+<application>
+  <component name="StringManipulationState">
+    <option name="lastAction">
+      <UniversalActionModel>
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.paste.PasteAsPhpArrayAction" />
+      </UniversalActionModel>
+    </option>
+  </component>
+</application>
