@@ -1,2 +1,133 @@
 <keymap version="1" name="Common Keymaps" parent="Sublime Text (Mac OS X)">
-</keymap>
+<action id="EditorSplitLine" />
+  <action id="ChangesView.Revert" />
+  <action id="Console.TableResult.SubmitAndCommit" />
+  <action id="Compile" />
+  <action id="Terminal.SmartCommandExecution.Debug" />
+  <action id="EditorTextStart" />
+  <action id="EditorTextStartWithSelection" />
+  <action id="ActivateProblemsViewToolWindow" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+<action id="EditorPreviousWordWithSelection" />
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="meta b" second-keystroke="meta h" />
+  </action>
+  <action id="EditorShowGutterIconTooltip" />
+  <action id="EditorStartNewLine" />
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="EditorToggleCase" />
+  <action id="ActivateDebugToolWindow" />
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="shift meta v" />
+  </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="$Redo" />
+  <action id="$Undo" />
+  <action id="TableResult.GrowSelection">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="StretchSplitToRight">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="XDebugger.AttachToProcess" />
+  <action id="Jdbc.OpenConsole.New.Generate" />
+  <action id="HideActiveWindow" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="meta b" second-keystroke="minus" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
+  <action id="DatabaseView.DataSourcePasteAction" />
+  <action id="EditorTextEnd" />
+  <action id="MaximizeToolWindow" />
+  <action id="ActivateFindToolWindow" />
+  <action id="Vcs.Push" />
+  <action id="EditorFocusGutter" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift alt escape" />
+  </action>
+  <action id="PasteMultiple" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta b" second-keystroke="back_slash" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="EditorSortLines" />
+  <action id="EditorPreviousWord" />
+  <action id="SmartSelect">
+    <keyboard-shortcut first-keystroke="shift meta a" />
+    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="MinimizeCurrentWindow" />
+  <action id="ActivateServicesToolWindow" />
+  <action id="StretchSplitToTop">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+  </action>
+  <action id="EditorToggleColumnMode" />
+  <action id="PreviousProjectWindow">
+    <keyboard-shortcut first-keystroke="meta b" second-keystroke="meta l" />
+  </action>
+  <action id="ChangesView.ShelveSilently" />
+  <action id="hg4idea.add" />
+  <action id="FillParagraph" />
+  <action id="StretchSplitToLeft">
+    <keyboard-shortcut first-keystroke="shift meta h" />
+  </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="MaximizeEditorInSplit">
+    <keyboard-shortcut first-keystroke="meta b" second-keystroke="z" />
+  </action>
+  <action id="Console.Transaction.Commit" />
+  <action id="CloseActiveTab" />
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="ActivateVersionControlToolWindow" />
+  <action id="EditorStartNewLineBefore" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="EditorPasteSimple" />
+  <action id="StretchSplitToBottom">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
+  <action id="GotoSymbol" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="EditorTextEndWithSelection" />
+  <action id="EditorToggleInsertState" />
+  <action id="SwitchCoverage" />
+  <action id="EditorPreviousWordInDifferentHumpsMode" />
+  <action id="Synchronize">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift meta alt enter" />
+  </action>
+  <action id="ActivateRunToolWindow" />
+  </keymap>
